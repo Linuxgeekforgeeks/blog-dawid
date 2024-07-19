@@ -1,0 +1,22 @@
+.singlePost{
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+   margin-top: 2rem;
+}
+.singlePost__left img{
+    width: 400px;
+    height: 270px;
+
+}
+.singlePost__right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: .2rem;
+    /* background-color: lightblue; */
+}
+.right__timestamp{
+    display: flex;
+    gap: 2rem;
+}
